@@ -20,4 +20,8 @@ Mikäli käyttäjätunnus on varattu, tästä nousee käyttäjälle ilmoitus.
 - Näkee tilastotaulun tekemistään peleistä. Tässä tilastotaulussa on listattuna kaikki kyseistä peliä pelanneet käyttäjät ja heidän pisteet.
 - Pystyy kirjautumaan ulos.
 
+## Pelin toiminnot
+- Yhteen peliin saa luotua niin monta kysymystä kuin ylläpitäjä haluaa, mutta tietokannasta arvotaan aina peliä pelatessa tietty määrä kysymyksiä esimerkiksi 10-15 kysymystä peliä kohden, jotta kysymykset eivät välttämättä olisi jokaisella kerralla samat.
+
+
 Web-sovelluksen teko on osa Helsingin yliopiston Tietojenkäsittelytieteen Tietokantasovellus-harjoitustyö -kurssia.
