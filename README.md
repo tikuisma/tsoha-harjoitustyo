@@ -25,7 +25,9 @@ Mikäli käyttäjätunnus on varattu, tästä nousee käyttäjälle ilmoitus.
 
 ## Projektin nykystatus
 Pelissä onnistuu vasta käyttäjän luonti ja sisäänkirjautuminen. Käyttäjätietokanta luotu. HUOM. Virheiden annot puuttuvat! 
+
 Sovellus on todella pahasti keskeneräinen. Alun haasteiden ja koko sovelluksen toimivuudessa hieman kesti.
+
 Matikkapelin Heroku-sivulle pääsee [tästä](https://tsoha-kavijat.herokuapp.com/).
 
 Web-sovelluksen teko on osa Helsingin yliopiston Tietojenkäsittelytieteen Tietokantasovellus-harjoitustyö -kurssia.
