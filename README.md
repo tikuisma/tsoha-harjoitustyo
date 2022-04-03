@@ -23,5 +23,9 @@ Mikäli käyttäjätunnus on varattu, tästä nousee käyttäjälle ilmoitus.
 ## Pelin toiminnot
 - Yhteen peliin saa luotua niin monta kysymystä kuin ylläpitäjä haluaa, mutta tietokannasta arvotaan aina peliä pelatessa tietty määrä kysymyksiä esimerkiksi 10-15 kysymystä peliä kohden, jotta kysymykset eivät välttämättä olisi jokaisella kerralla samat.
 
+## Projektin nykystatus
+Pelissä onnistuu vasta käyttäjän luonti ja sisäänkirjautuminen. Käyttäjätietokanta luotu. HUOM. Virheiden annot puuttuvat! 
+Sovellus on todella pahasti keskeneräinen. Alun haasteiden ja koko sovelluksen toimivuudessa hieman kesti.
+Matikkapelin Heroku-sivulle pääsee [tästä](https://tsoha-kavijat.herokuapp.com/).
 
 Web-sovelluksen teko on osa Helsingin yliopiston Tietojenkäsittelytieteen Tietokantasovellus-harjoitustyö -kurssia.
