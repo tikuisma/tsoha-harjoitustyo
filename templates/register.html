@@ -1,0 +1,28 @@
+<title>Matikkapeli</title>
+<h1>Matikkapeli</h1>
+<p>
+<b></b>Täällä voit luoda itsellesi tilin, jotta pääset pelailemaan mahtavia matikkapelejä</b>
+
+<form action="/newaccount" method="POST">
+    Luo tili keksimällä itsellesi käyttäjätunnus ja salasana:
+    <br>
+    <br>
+    Käyttäjätunnus:
+    <input type="text" name="username">
+    <br>
+    <br>
+    Salasana:
+    <input type="text" name="password" size="20">
+    <br>
+    <br>
+    Käyttäjärooli:
+    <select name="role">
+    <option value=1> oppilas
+    <option value=2> opettaja
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Luo tili">
+    <br>
+    <button> <a href="/">Takaisin</a></button>
+</form>

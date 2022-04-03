@@ -1,0 +1,28 @@
+<title>Matikkapeli</title>
+<h1>Matikkapeli</h1>
+<p>
+<b></b>Tervetuloa pelaamaan eri tasoisia matikkapelejä!</b>
+{% if session.username %}
+<p>Olet kirjautunut nimellä {{ session.username }}</p>
+<a href="/logout">Kirjaudu ulos</a>
+{% else %}
+
+<form action="/login" method="POST">
+    Kirjaudu sisään:
+    <br>
+    <br>
+    Käyttäjätunnus:
+    <input type="text" name="username">
+    <br>
+    <br>
+    Salasana:
+    <input type="text" name="password" size="20">
+    <br>
+    <br>
+    <input type="submit" value="Kirjaudu sisään">
+    </form>
+    <br>
+    <br>
+    Mikäli sinulla ei ole vielä käyttäjää, voit luoda sen helposti täällä: <button> <a href="/newaccount">Luo tili</a></button>
+</form>
+{% endif %}
